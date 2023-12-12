@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/666b84b966.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero" id="home">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">INTERESTS</a></li>
+                <li><a href="#portfolio">GALLERY</a></li>
+                <li><a href="#contact">ACCOUNTS</a></li>
+            </ul>
+        </nav>
+         <div class="detail">
+            <h3> Hi! It's Me</h3>
+             <h1><span> James Louie</span> Lacerna</h1>
+                <h3 class="thisis">And this is my Personal Website</h3>
+                <p>Join me on my journey as a Computer Science student at Batangas State University,<br> The National Engineering University, as I explore the exciting world of technology and knowledge.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jameslouie.lacerna?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/notkenrich?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/notkenrich?t=gl9S-qMYvRZPI32cOPGsoA&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.snapchat.com/add/kenrichuu?share_id=UZspFksDjZg&locale=en-GB"><i class="fa-brands fa-snapchat"></i></a>
+                </div>
+                <div class="images">
+                 <img src="images/purpblob.png" class="purpleblob">
+                 <img src="images/realspark.png" class="sparklepic">
+                 <img src="images/mainpic.png" class="mainpic">
+                </div>
+        </div>   
+    </div>
+<!-----------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutmepic.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="selfdiscription">
+                        Hi! I'm James Louie Lacerna, affectionately known as Kenrich among my friends. Celebrating my birthday on June 10, 2005, I proudly identify as a lively Gemini, currently reveling in the vibrant age of 18. Nestled in the scenic locale of San Ignacio, Rosario, Batangas, I find solace and inspiration in this beautiful corner of the world.
+                        
+                        Embarking on the exciting journey of higher education, I am passionately pursuing my first year in Computer Science at Batangas State University - The National Engineering University, Alangilan Campus.
+                        
+                        If I were to encapsulate my essence, I'd describe myself as a lively individual, my personality exuding a delightful bubbliness. However, I also acknowledge the importance of maintaining boundaries, striking a harmonious balance in navigating the intricate tapestry of life.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('talents')">Talents</p>
+                        <p class="tab-links" onclick="opentab('beliefs')">Beliefs</p>
+                        <p class="tab-links" onclick="opentab('goals')">Goals</p>
+                    </div>
+                    <div class="tab-contents active-tab"id="talents">
+                        <ul>
+                            <li><span>Singing</span><br></li>
+                            <li><span>Arts</span><br></li>
+                            <li><span>Dancing</span><br></li>
+                            <p class="talentdes">Immersed in the enchanting world of creativity, my heart finds its rhythm in the harmonies of music and the expressive strokes of the arts. Music is my sanctuary, and the arts are my canvas for self-discovery.
+
+                                Whether it's belting out tunes in song, losing myself in the graceful movements of dance, or channeling my thoughts onto paper through drawing, these artistic pursuits are more than hobbies—they're an integral part of who I am. Each note sung, every dance step taken, and every stroke of the pencil tells a unique story, weaving together the vibrant tapestry of my passions.</p>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="beliefs">
+                        <ul>
+                            <li><span>Quote</span><br></li>
+                            <p class="talentdes">"Love your flaws and own your quirks. And know that you are just as perfect as anyone else, exactly as you are." - Ariana Grande</p>
+                            <li><span>Core Values</span><br></li>
+                            <p class="talentdes">Respect, Empathy, Authenticity</p>
+                            <p class="talentdes"> 
+                                Respect, empathy, and authenticity are vital to me as they form the foundation of meaningful connections—respect fosters understanding, empathy cultivates compassion, and authenticity allows for genuine, honest relationships to thrive.</p>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="goals">
+                        <ul>
+                            <li><span>Personal Goals</span><br></li>
+                            <p class="talentdes">Improve emotional intelligence or interpersonal communication skills.</p>
+                            <li><span>Educatinal Goals</span><br></li>
+                            <p class="talentdes">Complete a degree or program of study.</p>
+                            <li><span>Travel Goals</span><br></li>
+                            <p class="talentdes">Visit the US or live in the US.</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----interests-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titleint">My Interests</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-music"></i>
+                    <h2>Music</h2>
+                    <p class="intsub">I mainly like pop music. My topartists are Ariana Grande. Madison Beer, Doja Cat, Billie Eilish, and many more.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Movie</h2>
+                    <p class="intsub">I really enjoy watching animated movies or shows. I've been a huge Disney fan since I was a kid. I recently watched Maya and the Three, Nimona, and Trolls 3, and I really love them. </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-utensils"></i>
+                    <h2>Food</h2>
+                    <p class="intsub">I really like any food that is strawberry flavored or cheese flavored. One of my favorite drinks is Pink drink from Starbucks.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cat"></i>
+                    <h2>Pets</h2>
+                    <p class="intsub"> I currently have six cats, all of them are adopted. I had a lot of pets growing up. I had bunnies, prakeet bird, fishes, ducks and pigeons. </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shirt"></i>
+                    <h2>Fasion</h2>
+                    <p class="intsub">I mainly take inspirations for my style online. I really like wearing something comfy but stylish. I like sweaters, oversized pants and chunky shoes.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Language</h2>
+                    <p class="intsub">I am proficient in three languages: Tagalog, my native tongue; English, which I predominantly use; and Spanish, a language I studied and acquired through online learning.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------gallery--------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titlegal">Gallery</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pic01.jpg">
+                    <div class="layer">
+                        <p>December 01, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic2.jpg">
+                    <div class="layer">
+                        <p>November 28, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic3.jpg">
+                    <div class="layer">
+                        <p>October 18, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic4.jpg">
+                    <div class="layer">
+                        <p>October 17, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic5.jpg">
+                    <div class="layer">
+                        <p>September 18, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic6.jpg">
+                    <div class="layer">
+                        <p>September 15, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic7.jpg">
+                    <div class="layer">
+                        <p>November 22, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic8.jpg">
+                    <div class="layer">
+                        <p>September 14, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic9.jpg">
+                    <div class="layer">
+                        <p>September 12, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic10.jpg">
+                    <div class="layer">
+                        <p>September 29, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic11.jpg">
+                    <div class="layer">
+                        <p>November 26, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic12.jpg">
+                    <div class="layer">
+                        <p>November 20, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic13.jpg">
+                    <div class="layer">
+                        <p>Novenber 11, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic14.jpg">
+                    <div class="layer">
+                        <p>September 20, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic15.jpg">
+                    <div class="layer">
+                        <p>October 04, 2023</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic16.jpg">
+                    <div class="layer">
+                        <p>September 27, 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="cme">Contact Me!</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>jameslacerna1006@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jameslouie.lacerna?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/notkenrich?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/notkenrich?t=gl9S-qMYvRZPI32cOPGsoA&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.snapchat.com/add/kenrichuu?share_id=UZspFksDjZg&locale=en-GB"><i class="fa-brands fa-snapchat"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="=submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p class="cpr">Copyright © Kenrich. Made with ♡♡♡ by yours truly!</p>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
